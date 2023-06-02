@@ -9,7 +9,8 @@ export const Data = [
       type: "Crime | Drama",
       seasons: "2 seasons",
       description:
-        "A mentally unstable driver in Ned sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute."
+        "A mentally unstable driver in Ned sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
+        trailer:"https://www.youtube.com/embed/UUxD4-dEzn0"
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ export const Data = [
       type: "Comedy | Drama",
       seasons: "4 seasons",
       description:
-        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus."
+        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
+        trailer:"https://www.youtube.com/embed/wvwVkllXT80"
     },
     {
       id: 3,
@@ -33,7 +35,8 @@ export const Data = [
       type: "Comedy | Drama",
       seasons: "4 seasons",
       description:
-        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus."
+        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
+        trailer:"https://www.youtube.com/embed/oZn3qSgmLqI"
     },
   {
       id: 4,
@@ -45,8 +48,9 @@ export const Data = [
       type: "Action | Adventure",
       seasons: "5 seasons",
       description:
-        "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang."
-    },
+        "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
+      trailer:"https://www.youtube.com/embed/zSWdZVtXT7E"
+      },
     {
       id: 5,
       image:
@@ -57,7 +61,8 @@ export const Data = [
       type: "Comedy | Drama",
       seasons: "4 seasons",
       description:
-        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus."
+        "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
+        trailer:"https://www.youtube.com/embed/0fUCuvNlOCg"
     },
     {
       id: 6,
@@ -69,7 +74,8 @@ export const Data = [
       type: "Action | Adventure",
       seasons: "5 seasons",
       description:
-        "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang."
+        "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
+        trailer:"https://www.youtube.com/embed/76jy3zJ9_PE"
     },
     {
       id: 7,
@@ -82,7 +88,7 @@ export const Data = [
       seasons: "2 seasons",
       description:
         "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.'The Bride' decided to escape her life as a killer.",
-      details: "https://www.imdb.com/title/tt0266697/plotsummary?ref_=tt_stry_pl"
+      trailer:"https://www.youtube.com/embed/7kSuas6mRpk"
     }
   ];
 

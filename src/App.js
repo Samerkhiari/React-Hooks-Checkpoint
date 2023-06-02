@@ -3,6 +3,8 @@ import {Data} from './Data'
 import MovieList from './Movie-list';
 import AddMovie from './AddMovie';
 import SearchMovie from './SearchMovie';
+import { Route, Routes } from 'react-router-dom';
+import MovieDes from './MovieDes';
 
 
 
@@ -21,10 +23,13 @@ const addHandler = (newMovie) => {
         setSearchName={setSearchName}
         setSearchRating={setSearchRating}
       />
-      <MovieList movies={data}
+      <AddMovie addHandler={addHandler}/>
+      <Routes>
+        <Route path="/List" element={<MovieList movies={data}
         searchName={searchName}
-        searchRating={searchRating} />
-      <AddMovie addHandler={addHandler} />
+        searchRating={searchRating}/>}/>
+        <Route path="/MovieDes/:idMovie" element={<MovieDes/>}/>
+      </Routes>
     
     </div>
   )

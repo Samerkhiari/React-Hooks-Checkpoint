@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import ReactStars from "react-stars";
 
 function MovieCard({ movie }) {
@@ -21,6 +22,9 @@ function MovieCard({ movie }) {
       <p>Type: {movie.type}</p>
       <p>Seasons: {movie.seasons}</p>
       <p>Description: {movie.description}</p>
+      <button onClick={(e) => e.preventDefault()}>
+      <Link to={`/MovieDes/${movie.id}`}>Watch The Trailer</Link>
+      </button>
     </div>
   );
 }

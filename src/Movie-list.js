@@ -1,5 +1,6 @@
 import React from 'react';
 import MovieCard from './MovieCard';
+import { Link } from 'react-router-dom';
 
 const MovieList = ({movies,searchName,searchRating}) => {
   return (
@@ -11,6 +12,7 @@ const MovieList = ({movies,searchName,searchRating}) => {
             movie.rating === searchRating )
         .map((movie) => (
           <MovieCard movie={movie} />
+          
         ))}
     </div>
   );
